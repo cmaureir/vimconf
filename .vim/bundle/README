@@ -1,5 +1,0 @@
-Plugins are submodules of this repository,
-and using pathogen[1] to place its
-only in the bundle directory.
-
-[1] https://github.com/tpope/vim-pathogen

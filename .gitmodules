@@ -17,5 +17,5 @@
 	path = .vim/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule ".vim/bundle/snippets-cuda"]
-	path = snippets-cuda
-	url = git@github.com:cmaureir/snipmate-snippets-cuda.git
+	path = .vim/bundle/snippets-cuda
+	url = git@github.com:cmaureir/snipmate-snippets-cuda

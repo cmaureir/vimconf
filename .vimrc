@@ -1,5 +1,5 @@
 " Pathogen
-call pathogen#infect() 
+call pathogen#infect()
 
 " Options
 syntax on

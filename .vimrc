@@ -18,3 +18,6 @@ autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 
 " CUDA file recognition
 au BufNewFile,BufRead *.cu set ft=cu
+
+" TeX recognition
+let g:tex_flavor = "latex"

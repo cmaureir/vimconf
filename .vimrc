@@ -9,7 +9,9 @@ set ignorecase smartcase
 set virtualedit=block
 set list listchars=trail:◀,tab:··
 
-
+" let g:Powerline_symbols = 'fancy'
+set t_Co=256
+set laststatus=2
 " Programming bracket fixed
 autocmd BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap {} {<Return>}<Esc>O
 

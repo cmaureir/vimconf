@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/snippets-cuda"]
 	path = .vim/bundle/snippets-cuda
 	url = git@github.com:cmaureir/snipmate-snippets-cuda
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = git://github.com/Lokaltog/vim-powerline.git

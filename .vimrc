@@ -23,3 +23,6 @@ au BufNewFile,BufRead *.cu set ft=cu
 
 " TeX recognition
 let g:tex_flavor = "latex"
+
+" Toggle paste mode
+set pastetoggle=<F11>

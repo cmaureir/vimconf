@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/snippets-rst"]
+	path = .vim/bundle/snippets-rst
+	url = git@github.com:cmaureir/snipmate-snippets-rst.git

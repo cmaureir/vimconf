@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/snippets-rst"]
 	path = .vim/bundle/snippets-rst
 	url = git@github.com:cmaureir/snipmate-snippets-rst.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

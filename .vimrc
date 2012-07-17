@@ -2,7 +2,6 @@
 call pathogen#infect()
 
 " Options
-syntax on
 set hls is
 set tabstop=4 shiftwidth=4 expandtab
 set ignorecase smartcase
@@ -37,3 +36,8 @@ if has("autocmd")
   autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
   autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
 endif
+
+syntax enable
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized

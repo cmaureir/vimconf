@@ -14,7 +14,7 @@ set laststatus=2
 
 " Programming bracket fixed
 " C/C++/CUDA
-autocmd BufRead *.c,*.h,*.hpp, *,cuh,*.cpp,*.cu imap {} {<Return>}<Esc>O
+autocmd BufRead *.c,*.h,*.hpp,*.cuh,*.cpp,*.cu imap {} {<Return>}<Esc>O
 autocmd BufRead *.php,*.pl,*.java,*.css imap {} {<Return>}<Esc>O
 
 " Remove blank-spaces at EOL
@@ -27,7 +27,7 @@ au BufNewFile,BufRead *.cu set ft=cu
 let g:tex_flavor = "latex"
 
 " Toggle paste mode
-set pastetoggle=<F11>
+set pastetoggle=<F12>
 
 " Solarized stuff
 syntax enable

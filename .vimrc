@@ -126,3 +126,5 @@ if has("autocmd")
  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
   \| exe "normal! g'\"" | endif
   endif
+
+let g:gitgutter_enabled = 1

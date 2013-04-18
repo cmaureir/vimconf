@@ -31,7 +31,7 @@ set pastetoggle=<F12>
 
 " Solarized stuff
 syntax enable
-set background=light
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 call togglebg#map("<F11>")

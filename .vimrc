@@ -22,6 +22,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " CUDA file recognition
 au BufNewFile,BufRead *.cu set ft=cu
+au BufNewFile,BufRead *.cuh set ft=cuh
 
 " TeX recognition
 let g:tex_flavor = "latex"

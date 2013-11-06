@@ -21,8 +21,7 @@ autocmd BufRead *.php,*.pl,*.java,*.css imap {} {<Return>}<Esc>O
 autocmd BufWritePre * :%s/\s\+$//e
 
 " CUDA file recognition
-au BufNewFile,BufRead *.cu set ft=cu
-au BufNewFile,BufRead *.cuh set ft=cuh
+au BufNewFile,BufRead *.cu,*.cuh set ft=cu
 
 " TeX recognition
 let g:tex_flavor = "latex"

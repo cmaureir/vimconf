@@ -5,8 +5,8 @@ set hls is
 " Tabs rules!
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 set virtualedit=block
-set list listchars=tab:▸\ ,eol:¬
-
+exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+set list
 " Powerline options
 " let g:Powerline_symbols = 'fancy'
 set t_Co=256
@@ -53,9 +53,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 
-" Relative numbers instead ofthe fixed ones
-set relativenumber
-
 " Undofile if I close the file!
 set undofile
 let mapleader = ","
@@ -80,6 +77,12 @@ set hlsearch
 
 " ,<space> instead of :noh
 nnoremap <leader><space> :noh<cr>
+
+" Relative numbers instead ofthe fixed ones
+set relativenumber
+
+" ,l to remove relative numbers
+nnoremap <leader>l :set norelativenumber!<CR>
 
 " Match bracket pairs
 nnoremap <tab> %

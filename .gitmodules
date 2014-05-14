@@ -19,9 +19,6 @@
 [submodule ".vim/bundle/snippets-cuda"]
 	path = .vim/bundle/snippets-cuda
 	url = git@github.com:cmaureir/snipmate-snippets-cuda
-[submodule ".vim/bundle/powerline"]
-	path = .vim/bundle/powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
@@ -40,3 +37,6 @@
 [submodule ".vim/bundle/heroku"]
 	path = .vim/bundle/heroku
 	url = https://github.com/tpope/vim-heroku.git
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = https://github.com/Lokaltog/powerline.git

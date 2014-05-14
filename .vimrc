@@ -8,7 +8,7 @@ set virtualedit=block
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 " Powerline options
-" let g:Powerline_symbols = 'fancy'
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
 set t_Co=256
 set laststatus=2
 

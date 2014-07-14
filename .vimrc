@@ -29,12 +29,16 @@ let g:tex_flavor = "latex"
 " Toggle paste mode
 set pastetoggle=<F12>
 
-" Solarized stuff
+" colorscheme stuff
 syntax enable
 set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
-call togglebg#map("<F11>")
+"let g:solarized_termcolors=256
+"colorscheme solarized
+"call togglebg#map("<F11>")
+if !has("gui_running")
+   let g:gruvbox_italic=0
+endif
+colorscheme gruvbox
 
 set nocompatible
 set modelines=0

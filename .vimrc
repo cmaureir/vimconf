@@ -7,10 +7,6 @@ set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 set virtualedit=block
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
-" Powerline options
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
-set t_Co=256
-set laststatus=2
 
 " Programming bracket fixed
 " C/C++/CUDA
@@ -133,5 +129,13 @@ if has("autocmd")
  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
   \| exe "normal! g'\"" | endif
   endif
+
+" Powerline options
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
+set t_Co=256
+"let g:Powerline_symbols = 'unicode'
+set laststatus=2
+
+set synmaxcol=120
 
 let g:gitgutter_enabled = 1

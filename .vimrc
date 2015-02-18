@@ -138,4 +138,10 @@ set laststatus=2
 
 set synmaxcol=120
 
+" Gitgutter
 let g:gitgutter_enabled = 1
+
+" NerdTree
+nnoremap <F10> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+

@@ -1,9 +1,11 @@
 #!/bin/bash
 
+GIT=/usr/bin/git
+
 # Init and update submodules
 echo "Submodule init..."
-git submodule init
+$GIT submodule init
 echo "Submodule update..."
-git submodule update
+$GIT submodule update
 echo "Submodule updating each repo..."
-git submodule foreach git pull origin master
+$GIT submodule foreach git pull origin master

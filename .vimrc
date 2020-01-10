@@ -90,9 +90,9 @@ vnoremap <tab> %
 
 " Handling long lines
 set wrap
-set textwidth=79
+set textwidth=100
 set formatoptions=qrn1
-set colorcolumn=85
+set colorcolumn=72,79,100
 
 " Learning Vim!
 "nnoremap <up> <nop>

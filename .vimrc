@@ -53,6 +53,9 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 
+" Italic on comments
+highlight Comment cterm=italic
+
 " Undofile if I close the file!
 set undofile
 let mapleader = ","
@@ -90,9 +93,9 @@ vnoremap <tab> %
 
 " Handling long lines
 set wrap
-set textwidth=100
+set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=72,79,100
+set colorcolumn=72,80,100
 
 " Learning Vim!
 "nnoremap <up> <nop>
@@ -140,8 +143,18 @@ set synmaxcol=120
 
 " Gitgutter
 let g:gitgutter_enabled = 1
+let g:gitgutter_max_signs = 20000
 
 " NerdTree
 nnoremap <F10> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+set rtp+=~/.fzf
+
+" Markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+let g:markdown_syntax_conceal = 0
+let g:markdown_minlines = 100
+
+"set lcs+=space:·

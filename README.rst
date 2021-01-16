@@ -1,6 +1,10 @@
 vimconf
 -------
 
+.. image:: https://badges.gitter.im/Join%20Chat.svg
+   :alt: Join the chat at https://gitter.im/cmaureir/vimconf
+   :target: https://gitter.im/cmaureir/vimconf?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
 My personal vim configuration,
 considering my ``.vimrc`` file and some
 plugins.

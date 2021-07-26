@@ -8,6 +8,9 @@ set virtualedit=block
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 
+" SnipMate
+let g:snipMate = { 'snippet_version' : 1 }
+
 " Programming bracket fixed
 " C/C++/CUDA
 autocmd BufRead *.c,*.h,*.hpp,*.cuh,*.cpp,*.cu imap {} {<Return>}<Esc>O

@@ -29,6 +29,7 @@ let g:tex_flavor = "latex"
 set pastetoggle=<F12>
 
 " colorscheme stuff
+filetype plugin on
 syntax enable
 set background=dark
 "let g:solarized_termcolors=256

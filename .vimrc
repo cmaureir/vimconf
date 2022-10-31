@@ -32,13 +32,7 @@ set pastetoggle=<F12>
 filetype plugin on
 syntax enable
 set background=dark
-"let g:solarized_termcolors=256
-"colorscheme solarized
-"call togglebg#map("<F11>")
-if !has("gui_running")
-   let g:gruvbox_italic=0
-endif
-colorscheme gruvbox
+colorscheme nord
 
 set nocompatible
 set modelines=0

@@ -46,6 +46,7 @@ set wildmenu
 set wildmode=list:longest
 set visualbell
 set cursorline
+highlight  CursorLine ctermbg=Gray ctermfg=Black
 set ttyfast
 set ruler
 set backspace=indent,eol,start
@@ -156,3 +157,6 @@ let g:markdown_syntax_conceal = 0
 let g:markdown_minlines = 100
 
 "set lcs+=space:·
+"
+" Long syntax
+set synmaxcol=200

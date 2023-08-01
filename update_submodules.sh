@@ -1,6 +1,4 @@
 #!/bin/bash
 
-GIT=/usr/bin/git
-
-$GIT submodule update --init --recursive
-$GIT submodule foreach git pull origin master
+git submodule update --init --recursive
+git submodule update --remote --recursive

@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/nord-vim"]
 	path = .vim/bundle/nord-vim
 	url = https://github.com/arcticicestudio/nord-vim
+[submodule ".vim/bundle/colors-solarized"]
+	path = .vim/bundle/colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
